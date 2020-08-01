@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.App {
+  height: 100vh;
+}
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.display-country {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 8rem;
+  height: 4rem;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: 3px solid pink;
+}
+.link {
+  color: white;
+}
